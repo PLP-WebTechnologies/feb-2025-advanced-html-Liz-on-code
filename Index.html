@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple page</title>
+</head>
+<body>
+
+ 
+  <h2>Roman Numeral List</h2>
+  <ol type="I">
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+  </ol>
+
+  <!-- External Image from Pexels -->
+  <h2>Beautiful flowers</h2>
+  <img 
+    src="pexels-jan-krnc-268225-1043458.jpg"
+    alt="Mountain flowers from Pexels" 
+    width="600"
+  >
+
+  <!-- Contacts Table -->
+  <h2>Contact List</h2>
+  <table border="1" cellpadding="10">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Elizabeth Wambui</td>
+        <td>Nakuru</td>
+        <td>0757 446 034</td>
+        <td>elizawambui2926@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Jane muthoni</td>
+        <td>Kenyatta Avenue</td>
+        <td>0776 543 214</td>
+        <td>janemuthoni@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Mike munene</td>
+        <td>Thika Rd</td>
+        <td>0722 334 455</td>
+        <td>mikemunene@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Emily Chebet</td>
+        <td>koinange St</td>
+        <td>0723 344 556</td>
+        <td>emilychebet@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Chris otieno</td>
+        <td>kisumu</td>
+        <td>0734 455 667</td>
+        <td>chrisotieno@gmail.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Registration Form -->
+  <h2>Registration Form</h2>
+  <form action="#" method="POST">
+
+    <!-- Name -->
+    <label for="name">Full Name:</label><br>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="Enter your full name" 
+      required
+    ><br><br>
+
+    <!-- Email -->
+    <label for="email">Email Address:</label><br>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="Enter your email" 
+      required
+    ><br><br>
+
+    <!-- Password -->
+    <label for="password">Password:</label><br>
+    <input 
+      type="password" 
+      id="password" 
+      name="password" 
+      placeholder="Create a password" 
+      required 
+      minlength="6"
+    ><br><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input 
+      type="date" 
+      id="dob" 
+      name="dob" 
+      required
+    ><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Select Country:</label><br>
+    <select id="country" name="country" required>
+      <option value="">--Please choose--</option>
+      <option value="usa">Kenya</option>
+      <option value="uk">South Africa</option>
+      <option value="canada">Nigeria</option>
+      <option value="india">Morocco</option>
+    </select><br><br>
+
+    <!-- Radio Buttons -->
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+
+
+
+    <!-- Checkboxes -->
+    <p>Hobbies:</p>
+    <input type="checkbox" id="reading" name="hobbies" value="reading">
+    <label for="reading">Reading</label><br>
+
+    <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+    <label for="traveling">Traveling</label><br>
+
+    <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+    <label for="gaming">Gardening</label><br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Register">
+
+  </form>
+
+</body>
+</html>
+```
+
